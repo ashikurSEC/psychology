@@ -37,7 +37,8 @@ html {
 
 .mask-custom {
     backdrop-filter: blur(5px);
-    background-color: rgba(255, 255, 255, .15);
+    background:#e1ffff0d;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-brand {
@@ -121,9 +122,9 @@ html {
 
 /* Add this CSS to your stylesheet */
 .navbar-nav .nav-item .nav-link.active {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: #00000033;
     border-radius: 4px; 
-    color: #000;
+    color: #fff;
     font-weight: bold;  
 }
 /* ==== Register Form ==== */
@@ -133,14 +134,14 @@ html {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-abstract-watercolor-background_23-2149010177.jpg?t=st=1722757607~exp=1722761207~hmac=bab1f3c79efe72ec2da1d48d75d844590fb5a0da032d19037919e1ff7add0a36&w=740');
+    background-image: url('/assets/img/bg1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .reg-form {
-    background-image: url('https://img.freepik.com/free-vector/watercolor-stains-abstract-background_23-2149107181.jpg?t=st=1722757340~exp=1722760940~hmac=a9bcb71203b9aebaba55d77ff64ff372aec0cc494cf0341625f301af4673020e&w=740');
+    background-image: url('/assets/img/reg1.jpg');
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
